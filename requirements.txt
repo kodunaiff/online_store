@@ -4,3 +4,5 @@ environs==9.5.0
 celery==5.2.7
 flower==1.1.0
 stripe==4.0.2
+eventlet==0.36.1
+weasyprint==56.1

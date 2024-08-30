@@ -152,3 +152,6 @@ data_g.json
 .idea/
 cert.crt
 cert.key
+.static/
+.static
+/static
