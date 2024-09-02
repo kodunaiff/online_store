@@ -146,3 +146,8 @@ STRIPE_PUBLISHABLE_KEY = env.str('STRIPE_PUBLISHABLE_KEY') # Публикуем�
 STRIPE_SECRET_KEY = env.str('STRIPE_SECRET_KEY') # Секретный ключ
 STRIPE_API_VERSION = '2022-08-01'
 STRIPE_WEBHOOK_SECRET = env.str('STRIPE_WEBHOOK_SECRET')
+
+# настроечные параметры Redis
+REDIS_HOST = env.str('REDIS_HOST')
+REDIS_PORT = env.str('REDIS_PORT')
+REDIS_DB = env.str('REDIS_DB')
